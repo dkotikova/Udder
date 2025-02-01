@@ -18,6 +18,10 @@ class ViewController: UIViewController {
         super.viewDidAppear(animated)
     }
 
-
+override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+    }
+    
+    
 }
 
